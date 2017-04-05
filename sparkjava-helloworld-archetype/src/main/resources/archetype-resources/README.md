@@ -1,13 +1,13 @@
-#README
+# README
 This guide will help you to build and run the Spark Java Hello World Example in a Servlet container.
 
-##Build
+## Build
 Simply just run the maven command below.
 
     mvn install
 
 
-##Run
+## Run
 Simply copy the war file to your servlet container's webapp folder
 
     cp target/<artifactId>-<version>.war  <tomcat_home>/webapps
